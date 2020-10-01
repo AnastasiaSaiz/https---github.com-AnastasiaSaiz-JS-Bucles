@@ -3,8 +3,8 @@ let contrasena = window.prompt("Introduce la contraseña");
 let expq = "(?:.*\d){1}"
 let encontradosNum
 let encontradoMayus
-var re = new RegExp("[0-9]{1,}")
-var reL = new RegExp("^[A-Z]")
+let re = new RegExp("[0-9]{1,}")
+let reL = new RegExp("^[A-Z]")
 
 
 if (contrasena.length >= 8) {
